@@ -296,10 +296,14 @@ header .navbar {
 
 .contact-section .section-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
   gap: 60px;
+  align-items: flex-start; /* top align */
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.contact-section {
+  padding-bottom: 60px; /* add space below contact section */
 }
 
 .contact-section .contact-info-list {
